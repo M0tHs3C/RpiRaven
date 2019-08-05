@@ -1,7 +1,7 @@
 # RpiRaven
-* 1. scan for raspberry pis over the internet with the technology of censys or shodan
-* 2. scan for on-LAN raspberry pis
-* 3. exploit them using default password
+* 1 . scan for raspberry pis over the internet with the technology of censys or shodan
+* 2 . scan for on-LAN raspberry pis
+* 3 . exploit them using default password
 # Introduction
 Rpi raven is a python tool that make you able to scan over the internet for Rpis and then try to connect to them with the default credential.
 This tool is not intended to harm anyone or any raspberry, it's a simple tool that should make people realize that there are a lot of "ridiculous easy" vulnerable machines and that is not right, a lot of them could be used in some major attack like mirai.
@@ -12,15 +12,10 @@ pip install censys
 pip install paramiko      or        apt-get install python-paramiko (should also work on debian)
 ```
 # Usage
-+------------------------------------------------------------+
-|                RpiRaven    author: m0ths3c                 |
-|------------------------------------------------------------|
-| Usage:                                                     |
-| 1. Gather host with shodan (api needed)                    |
-| 2. Gather host with censys.io (api needed)                 |
-| 3. scan for up host                                        |
-| 4. scan for vuln host                                      |
-+------------------------------------------------------------+
+1. Gather host with shodan (api needed)                    
+2. Gather host with censys.io (api needed)                 
+3. scan for up host                                        
+4. scan for vuln host
 
 The tool is pretty simple, reduced to the minimu user interaction with the tool.
 You will 4 options, the first two are intended to gather hosts from the web using shodan or censys.
